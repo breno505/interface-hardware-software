@@ -1,0 +1,9 @@
+# Arquivos de executáveis compilados
+*.exec
+*.out
+
+# Arquivos objeto intermediários
+*.o
+
+# Arquivos de log que nosso programa possa gerar
+*.log
