@@ -5,5 +5,8 @@
 # Arquivos objeto intermediários
 *.o
 
-# Arquivos de log que nosso programa possa gerar
+# Arquivos de log que o programa possa gerar
 *.log
+
+# Arquivos de imagem de disco
+*.img
