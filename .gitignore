@@ -5,8 +5,11 @@
 # Arquivos objeto intermediários
 *.o
 
-# Arquivos de log que o programa possa gerar
+# Arquivos de log que nosso programa possa gerar
 *.log
 
 # Arquivos de imagem de disco
 *.img
+
+# Pasta de montagem de teste 🚫
+pasta_de_fotos/
