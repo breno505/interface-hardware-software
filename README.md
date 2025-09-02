@@ -86,12 +86,13 @@ sudo chown $USER:$USER pasta_de_fotos/
 
 # 4. Copie arquivos JPEG para o diretório 'pasta_de_fotos'
 #    (Pode ser feito manualmente através do gerenciador de arquivos)
+cp fotos_que_estou_usando/*.jpg pasta_de_fotos/
+cp fotos_que_estou_usando/*.jpeg pasta_de_fotos/
 
 # 5. Verifique se os arquivos foram copiados e sincronize
 ls -lh pasta_de_fotos/
 # IMPORTANTE - Não esqueça de sincronizar
 sync
-
 
 # 6. Remova os arquivos do sistema de arquivos da imagem
 sudo rm pasta_de_fotos/*.jpg
